@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="59062" started-at="2018-06-15T21:08:52Z" finished-at="2018-06-15T21:09:51Z">
+    <groups>
+    </groups>
+    <test name="Free CRM App Test Cases" duration-ms="59062" started-at="2018-06-15T21:08:52Z" finished-at="2018-06-15T21:09:51Z">
+      <class name="com.freecrm.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.freecrm.testcases.LoginPageTest@1794d431]" name="setup" is-config="true" duration-ms="8758" started-at="2018-06-16T02:38:52Z" finished-at="2018-06-16T02:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.freecrm.testcases.LoginPageTest@1794d431]" name="LoginTest" duration-ms="13511" started-at="2018-06-16T02:39:01Z" finished-at="2018-06-16T02:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.testcases.LoginPageTest@1794d431]" name="teardown" is-config="true" duration-ms="1943" started-at="2018-06-16T02:39:15Z" finished-at="2018-06-16T02:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.freecrm.testcases.LoginPageTest@1794d431]" name="setup" is-config="true" duration-ms="19343" started-at="2018-06-16T02:39:17Z" finished-at="2018-06-16T02:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="image()[pri:0, instance:com.freecrm.testcases.LoginPageTest@1794d431]" name="image" duration-ms="117" started-at="2018-06-16T02:39:36Z" finished-at="2018-06-16T02:39:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- image -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.testcases.LoginPageTest@1794d431]" name="teardown" is-config="true" duration-ms="1614" started-at="2018-06-16T02:39:36Z" finished-at="2018-06-16T02:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.freecrm.testcases.LoginPageTest@1794d431]" name="setup" is-config="true" duration-ms="12077" started-at="2018-06-16T02:39:38Z" finished-at="2018-06-16T02:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatetitle()[pri:0, instance:com.freecrm.testcases.LoginPageTest@1794d431]" name="validatetitle" duration-ms="25" started-at="2018-06-16T02:39:50Z" finished-at="2018-06-16T02:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.freecrm.testcases.LoginPageTest@1794d431]" name="teardown" is-config="true" duration-ms="1645" started-at="2018-06-16T02:39:50Z" finished-at="2018-06-16T02:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.freecrm.testcases.LoginPageTest -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+</testng-results>

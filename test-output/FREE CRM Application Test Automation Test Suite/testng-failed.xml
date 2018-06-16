@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.freecrm.ExtentReportGeneration.ExtentReportNG"/>
+  </listeners>
+  <test name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.freecrm.testcases.ContactPageTest">
+        <methods>
+          <include name="verifyContactsPageLabel"/>
+          <include name="setup"/>
+          <include name="selectMultipleContactsTest"/>
+          <include name="selectSingleContactsTest"/>
+          <include name="validateCreateNewContact" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.ContactPageTest -->
+      <class name="com.freecrm.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.LoginPageTest -->
+      <class name="com.freecrm.testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyContactsLinkTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
